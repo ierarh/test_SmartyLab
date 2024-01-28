@@ -1,0 +1,92 @@
+.re_shortcode{
+    width: 670px;
+}
+.re_widget{
+    width: 360px;
+}
+.re_widget .col{
+    float: left;
+    width: 45%;
+}
+.re_filters .re_input{
+    width: 200px;
+    float: left;
+}
+.re_filters .re_select,
+.re_filters .re_radio,
+.re_filters .re_button{
+    width: 150px;
+    float: left;
+    margin-right: 5px;
+}
+.re_widget .re_filters .re_radio{
+    width: 45%;
+    margin: 0;
+}
+.re_widget .re_filters .re_button{
+    clear: both;
+    display: block;
+    float: none;
+    padding: 5px;
+    text-align: center;
+    width: auto;
+}
+.re_filters label{
+    display: block;
+}
+.re_filters .re_input input[type=text]{
+    width: 150px;
+}
+.re_filters .re_input select{
+    width: 100px;
+}
+
+.re_search_results{
+    clear: both;
+    width: 100%;
+}
+.re_search_results ul{
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+.re_search_results ul.active{
+    display: block;
+}
+.re_search_results ul li{
+    list-style: none;
+}
+.re_search_results ul li span{
+    display: inline-block;
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.re_search_results .re_pagination{
+    text-align: center;
+}
+.re_search_results .re_pagination a{
+    display: inline-block;
+    padding: 3px;
+    line-height: 1rem;
+    text-decoration: none;
+}
+.re_search_results .re_pagination a.active{
+    color: #000;
+    font-weight: bold;
+}
+.re_widget .re_search_results ul li span{
+    width: 100px;
+    height: 1.5rem;
+}
+.re_widget .re_search_results ul li span.re_district{
+    width: 70px;
+}
+.re_widget .re_search_results ul li span.re_floor{
+    width: 20px;
+}
+.re_widget .re_search_results ul li span.re_type{
+    width: 50px;
+}
